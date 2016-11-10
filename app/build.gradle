@@ -54,6 +54,6 @@ android {
 }
 
 dependencies {
-    compile 'org.sagebionetworks.bridge:researchstack-sdk:0.0.7'
+    compile 'org.sagebionetworks.bridge:researchstack-sdk:0.0.11'
     testCompile 'junit:junit:4.12'
 }

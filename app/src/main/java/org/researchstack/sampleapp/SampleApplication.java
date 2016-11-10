@@ -8,8 +8,9 @@ import android.support.multidex.MultiDex;
 
 import org.researchstack.skin.PermissionRequestManager;
 import org.researchstack.skin.ResearchStack;
+import org.sagebionetworks.bridge.android.BridgeApplication;
 
-public class SampleApplication extends Application
+public class SampleApplication extends BridgeApplication
 {
 
     public static final String PERMISSION_NOTIFICATIONS = "SampleApp.permission.NOTIFICATIONS";
